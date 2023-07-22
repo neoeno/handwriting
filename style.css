@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #E0E0E0;
+  text-align: center;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.prose {
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 1em;
+  text-align: left;
+}
+
+.goback {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  font-size: 1.5em;
+}
+
+#board {
+  display: inline-block;
+  position: relative;
+  width: 95vmin;
+  height: 95vmin;
+}
+
+#canvas {
+  width: 100%;
+  height: 100%;
+  background: rgb(246, 246, 246);
+  image-rendering: pixelated;
+}
+
+#position_marker {
+  position: absolute;
+  background: fuchsia;
+  border-radius: 50%;
+  transition: all 0.1s ease-in-out;
+}
